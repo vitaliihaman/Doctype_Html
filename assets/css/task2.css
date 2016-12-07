@@ -1,0 +1,9 @@
+.myInput input{
+   display: block;
+    margin: 5px;
+}
+.myInput button{
+    margin: 10px;
+    position: relative;
+    left: 50px;
+}
