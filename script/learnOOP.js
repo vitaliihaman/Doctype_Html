@@ -13,7 +13,7 @@ function Student(n, a) {
     };
     var self = this;
     this.calc = function () {
-        return CONST - age;  // при таком обращении эти переменные
+        return CONST - age;  // при таком обращении переменные (age, const)
                              // как-бы глобальные для этой функции
                              // и обращаться к ним надо напрямую,
                              // а не как к свойству обьекта
